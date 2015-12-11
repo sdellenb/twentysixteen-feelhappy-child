@@ -16,8 +16,39 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Twenty Sixteen Child Theme customization */
 
+.site-header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.site-title {
+    font-size: 48px;
+    font-size: 3rem;
+}
+
+.site-description {
+    font-size: 16px;
+    font-size: 1rem;
+}
+
 .main-navigation {
     text-transform: uppercase;
     font-size: smaller;
     color: #DDA84E;
+}
+
+.entry-title {
+    font-size: 24px;
+    font-size: 1.5rem;
+}
+
+/* Lists within the post content area only. The site menus are also lists.. */
+.entry-content ul, .entry-content ol {
+    /* The default padding is zero. */
+    padding-left: 3rem;
+}
+
+img.pebble {
+    padding-top: 3em;
+    padding-bottom: 4em;
 }
