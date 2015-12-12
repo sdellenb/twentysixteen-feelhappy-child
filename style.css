@@ -16,6 +16,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Twenty Sixteen Child Theme customization */
 
+body {
+    background: rgba(128, 201, 236, 0.22);
+}
+
 .site-header {
     padding-top: 1em;
     padding-bottom: 1em;
