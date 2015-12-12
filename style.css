@@ -2,7 +2,7 @@
 Theme Name: Twenty Sixteen Feelhappy Child Theme
 Theme URI: http://www.feelhappy.ch/
 Description: Twenty Sixteen Child Theme for feelhappy.ch
-Version: 0.1
+Version: 1.0
 Author: Simon Dellenbach
 Author URI: sdellenb@gmail.com
 Template: twentysixteen
@@ -50,4 +50,21 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 div.pebble {
     background: url(images/pebble_bg.png) center right no-repeat;
+}
+
+/* Site info in footer settings */
+.site-info ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.site-info ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.site-info li:not(:first-child):before {
+    content: " | ";
 }
