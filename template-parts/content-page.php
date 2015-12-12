@@ -14,8 +14,14 @@
 	</header><!-- .entry-header -->
 
 	<?php twentysixteen_post_thumbnail(); ?>
+	<?php
+		$entry_content_class = 'entry-content';
+		if (get_post_meta(get_the_ID(), 'show-pebble', true) == 'true') {
+			$entry_content_class .= ' pebble';
+		}
+	?>
 
-	<div class="entry-content">
+	<div class="<?= $entry_content_class ?>">
 		<?php
 		the_content();
 
